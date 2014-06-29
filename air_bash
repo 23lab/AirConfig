@@ -1,0 +1,20 @@
+# ALIAS CONFIG
+# adb cmd
+alias ainstall="adb install "
+alias auninstall="adb uninstall "
+# git cmd
+alias gadd="git add "
+alias gstatus="git status "
+alias gcm="git commit "
+alias gpush="git push "
+alias gpull="git pull "
+# other
+alias reload_bash="source ~/.bash_profile"
+
+
+
+
+# OTHER NON-ALIAS CONFIG
+export PS1="\u@\h:\w$"
+export CLICOLOR=1
+export GREP_OPTIONS="--color=true"
