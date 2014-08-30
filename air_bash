@@ -15,6 +15,6 @@ alias reload_bash="source ~/.bash_profile"
 
 
 # OTHER NON-ALIAS CONFIG
-export PS1="\u@\h:\w$"
-export CLICOLOR=1
-export GREP_OPTIONS="--color=true"
+# export PS1="\u@\h:\w$"
+# export CLICOLOR=1
+# export GREP_OPTIONS="--color=true"
