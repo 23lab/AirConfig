@@ -11,6 +11,17 @@ alias gpull="git pull "
 # other
 # alias reload_bash="source ~/.bash_profile"
 alias werioasdjklrqewiosdjkfalfjadslkfjdslfasuioqewjfa="ls"
+alias gstat="git status "
+alias gpull="git pull "
+alias gpush="git push "
+alias gadd="git add "
+alias grm="git add "
+alias gcommit="git commit "
+alias gcommit="git commit "
+alias gdiff="git diff "
+alias greset="git reset "
+
+alias rmr="rm -rf "
 
 
 
