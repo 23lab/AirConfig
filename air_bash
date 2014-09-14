@@ -22,6 +22,9 @@ alias gdiff="git diff "
 alias greset="git reset "
 
 alias rmr="rm -rf "
+alias vi="vim +NERDTree "
+alias tm="tmux"
+alias pwdcopy="pwd | pbcopy"
 
 
 
