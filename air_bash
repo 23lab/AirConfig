@@ -2,20 +2,14 @@
 # adb cmd
 alias ainstall="adb install "
 alias auninstall="adb uninstall "
-# git cmd
-alias gadd="git add "
-alias gstatus="git status "
-alias gcm="git commit "
-alias gpush="git push "
-alias gpull="git pull "
 # other
 # alias reload_bash="source ~/.bash_profile"
 alias werioasdjklrqewiosdjkfalfjadslkfjdslfasuioqewjfa="ls"
-alias gstat="git status "
+alias gstatus="git status "
 alias gpull="git pull "
 alias gpush="git push "
 alias gadd="git add "
-alias grm="git add "
+alias gadd="git add "
 alias gcommit="git commit "
 alias gcommit="git commit "
 alias gdiff="git diff "
@@ -25,7 +19,11 @@ alias rmr="rm -rf "
 alias vi="vim +NERDTree "
 alias tm="tmux"
 alias pwdcopy="pwd | pbcopy"
-
+alias brewproxy="http_proxy=http://proxy.tencent.com:8080 https_proxy=http://proxy.tencent.com:8080 brew "
+alias ip='ifconfig  | grep inet | grep -v inet6 | tail -n1 | awk "{print $2}"'
+alias install="adb uninstall com.webank.mbank; adb install "
+alias launch="adb shell am start -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -n com.webank.mbank/.SplashActivity"
+alias reload_bash="source ~/.bash_profile"
 
 
 # OTHER NON-ALIAS CONFIG
