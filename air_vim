@@ -6,4 +6,20 @@ set autoindent
 set cindent
 set expandtab
 
+"设置NERDTree
+let NERDTreeMinimalUI=1
+let NERDTreeWinSize=32
+
+"设置编码
+set encoding=utf-8
+set fileencodings=ucs-bom,utf-8,cp936
+set fileencoding=gb2312
+set termencoding=utf-8
+
+"Mapping
+"打开NERDTree
+nnoremap <C-n> :NERDTreeToggle<cr>
+
 set nu
+execute pathogen#infect()
+call pathogen#helptags()
