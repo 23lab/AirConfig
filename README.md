@@ -26,5 +26,13 @@ Config files of all my device, including Vim/Bash and so on.
 ## Install vim_airline
 > apt-vim install -y https://github.com/vim-airline/vim-airline.git
 
+# Install FZF
+```
+apt-vim install -y https://github.com/junegunn/fzf.git
+brew install fzf
+# Install shell extensions
+/usr/local/opt/fzf/install
+```
+
 ## Install Unite
 > apt-vim install -y https://github.com/Shougo/unite.vim.git
