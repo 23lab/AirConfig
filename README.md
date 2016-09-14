@@ -29,7 +29,7 @@ Config files of all my device, including Vim/Bash and so on.
 ## Install Unite
 > apt-vim install -y https://github.com/Shougo/unite.vim.git
 
-# Install FZF
->apt-vim install -y https://github.com/junegunn/fzf.git
-brew install fzf
-/usr/local/opt/fzf/install
+## Install FZF
+> apt-vim install -y https://github.com/junegunn/fzf.git
+> brew install fzf
+? /usr/local/opt/fzf/install
