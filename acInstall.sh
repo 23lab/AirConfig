@@ -25,3 +25,7 @@ elif [ $1 == 'bash' ]; then
     source ~/.bash_profile
 fi
 
+curl -sL https://raw.githubusercontent.com/egalpin/apt-vim/master/install.sh | sh
+apt-vim install -y https://github.com/scrooloose/nerdtree.git
+apt-vim install -y https://github.com/vim-airline/vim-airline.git
+apt-vim install -y https://github.com/Shougo/unite.vim.git
