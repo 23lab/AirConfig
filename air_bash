@@ -15,7 +15,7 @@ alias gstat="git status "
 alias gpull="git pull "
 alias gpush="git push "
 alias gadd="git add "
-alias grm="git add "
+alias gck="git checkout "
 alias gcommit="git commit "
 alias gcommit="git commit "
 alias gdiff="git diff "
@@ -25,6 +25,7 @@ alias rmr="rm -rf "
 alias vi="vim +NERDTree "
 alias tm="tmux"
 alias pwdcopy="pwd | pbcopy"
+alias o="open ."
 
 
 
