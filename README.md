@@ -31,5 +31,7 @@ Config files of all my device, including Vim/Bash and so on.
 
 ## Install FZF
 > apt-vim install -y https://github.com/junegunn/fzf.git
+
 > brew install fzf
-? /usr/local/opt/fzf/install
+
+> /usr/local/opt/fzf/install
