@@ -1,15 +1,18 @@
 AirConfig
 =========
 
-Config files of all my device, including Vim/Bash and so on.
+Config files of all my device, including Vim/Bash and so on. Use this to setup my dev env in a short time.
 
 ## Installation
-
-### zsh 
+### Install zsh
+```
+sudo apt-get install zsh
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
+```
+### Install AirConfig(zsh)
 > curl -sSL https://raw.githubusercontent.com/23lab/AirConfig/master/acInstall.sh | bash -s zsh; source ~/.zshrc
 
-
-### bash 
+### Install AirConfig(bash)
 > curl -sSL https://raw.githubusercontent.com/23lab/AirConfig/master/acInstall.sh | bash -s bash; source ~/.bash_profile
 ## Vim
 >ln air_vim ~/.vimrc
